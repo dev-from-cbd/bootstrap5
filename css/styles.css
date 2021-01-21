@@ -136,7 +136,7 @@ section {
 }
 
 .banner {
-	background: url(../images/barber-shop.jpg) no-repeat left center/12.5%;
+	background: url(../images/left.png) no-repeat left center/12.5%;
 	padding: 12% 0;
 }
 
@@ -164,4 +164,41 @@ section {
 .banner .spa-img {
 	width: 43.4%;
 	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.btn {
+	background-color: #ff817e;
+	border-radius: 0;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 0.8;
+	text-transform: uppercase;
+	min-width: 170px;
+	padding: 20px 15px;
+}
+
+.video-btn {
+	color: #555;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.video-btn:hover {
+	color: #ff817e;
+}
+
+.video-btn i {
+	border-radius: 50%;
+	background-color: #fcf5ee;
+	color: #ff817e;
+	display: inline-block;
+	line-height: 44px;
+	text-align: center;
+	margin-right: 10px;
+	height: 44px;
+	width: 44px;
 }
