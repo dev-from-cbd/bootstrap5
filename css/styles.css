@@ -56,10 +56,12 @@ section {
 	width: 100%;
 }
 
+/*
 .section-h2-none {
 	display: none;
 	font-size: 0; 
 }
+*/
 
 .header {
 	position: relative;
@@ -146,7 +148,7 @@ section {
 	font-family: "Rufina", serif;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
-	margin-bottom: 20px%: 
+	margin-bottom: 20px; 
 }
 
 .banner h2 {
