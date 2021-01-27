@@ -164,7 +164,7 @@ section {
 
 .banner h2 {
 	color: #1e2528;
-	font-size: 42px;
+	/* font-size: 42px; */
 	line-height: 75px;
 	margin-bottom: 25px;
 }
@@ -218,10 +218,78 @@ section {
 	width: 44px;
 }
 
+@media screen and (max-width: 1199px) {
+	.banner {
+		padding-top: 15%;
+	}	
+
+	.banner h2 {
+		font-size: 49px;
+		line-height: 60px;
+	}	
+}
+
+@media screen and (max-width: 676px) {
+	.banner {
+		padding-top: 130px;
+	}
+
+	.banner .spa-img {
+		display: none;
+	}		
+}
+
+@media screen and (max-width: 479px) {
+	.banner h2 {
+		font-size: 44px;
+		line-height: 54px;
+	}		
+
+	.banner .video-btn {
+		display: block;
+		margin-top: 30px; 
+	}		
+}
+
+@media screen and (min-width: 480px) {
+	.banner .video-btn {
+		margin-left: 15px; 
+	}		
+}
+
+.about {
+	text-align: center;
+}
+
+.about [class|=about] {
+	position: absolute;
+}
+
+.about .about-1-pic {
+	left: 16%;
+	top: 0;
+	max-width: 160px;
+}
+
+.about .about-2-pic {
+	right: 135px;
+	top: 50px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	max-width: 88px;
+}
+
+.sec-heading {
+	margin-bottom: 70px;
+	position: relative;
+	text-align: center;
+}
+
 @media screen and (min-width: 300px) {
 	.banner p {
 		padding-right: 183px; 
-		/* color: red; */
+		/* color: blue; */
 	}
 
 	.banner h2 {
@@ -232,7 +300,7 @@ section {
 @media screen and (min-width: 400px) {
 	.banner p {
 		padding-right: 183px; 
-		color: red;
+		/* color: red; */
 	}
 
 	.banner h2 {
@@ -243,7 +311,7 @@ section {
 @media screen and (min-width: 500px) {
 	.banner p {
 		padding-right: 183px; 
-		color: green;
+		/* color: green; */
 	}
 
 	.banner h2 {
@@ -254,7 +322,7 @@ section {
 @media screen and (min-width: 600px) {
 	.banner p {
 		padding-right: 183px; 
-		color: blue;
+		/* color: blue; */
 	}
 
 	.banner h2 {
@@ -265,7 +333,7 @@ section {
 @media screen and (min-width: 700px) {
 	.banner p {
 		padding-right: 183px; 
-		color: black;
+		/* color: black; */
 	}
 
 	.banner h2 {
@@ -276,7 +344,7 @@ section {
 @media screen and (min-width: 800px) {
 	.banner p {
 		padding-right: 53px; 
-		color: brown;
+		/* color: brown; */
 	}
 
 	.banner h2 {
@@ -287,7 +355,7 @@ section {
 @media screen and (min-width: 900px) {
 	.banner p {
 		padding-right: 53px; 
-		color: yellow;
+		/* color: yellow; */
 	}
 
 	.banner h2 {
@@ -298,7 +366,7 @@ section {
 @media screen and (min-width: 1000px) {
 	.banner p {
 		padding-right: 10px; 
-		color: green;
+		/* color: green; */
 	}
 
 	.banner h2 {
@@ -309,7 +377,7 @@ section {
 @media screen and (min-width: 1100px) {
 	.banner p {
 		padding-right: 10px; 
-		color: blue;
+		/* color: blue; */
 	}
 
 	.banner h2 {
@@ -320,7 +388,7 @@ section {
 @media screen and (min-width: 1200px) {
 	.banner p {
 		padding-right: 10px; 
-		color: brown;
+		/* color: brown; */
 	}
 
 	.banner h2 {
@@ -331,7 +399,7 @@ section {
 @media screen and (min-width: 1300px) {
 	.banner p {
 		padding-right: 10px; 
-		color: yellow;
+		/* color: yellow; */
 	}
 
 	.banner h2 {
