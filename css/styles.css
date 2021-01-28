@@ -273,7 +273,7 @@ section {
 
 .about .about-2-pic {
 	right: 135px;
-	top: 50px;
+	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
@@ -284,6 +284,29 @@ section {
 	margin-bottom: 70px;
 	position: relative;
 	text-align: center;
+}
+
+.sec-heading img {
+	max-width: 84px;
+	margin: 0 auto 40px;
+}
+
+.sec-heading .tagline {
+	color: #888;
+	display: block;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: .8;
+	text-transform: uppercase;
+}
+
+.sec-heading .sec-title {
+	color: #888;
+	display: block;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: .8;
+	text-transform: uppercase;
 }
 
 @media screen and (min-width: 300px) {
