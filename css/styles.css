@@ -331,6 +331,40 @@ section {
 	}
 }
 
+.service .service-caro {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-box-pack: justify;
+	-ms-box-pack: justify;
+
+	justify-content: space-between;
+}
+
+.service .single-service {
+	-ms-flex-preferred-size: 25%;
+	flex-basis: 25%;
+	position: relative;
+}
+
+.service .single-service .single-hover {
+	background-color: rgba(255, 129, 126, 0.9);
+
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	-webkit-box-orient: vertical;
+
+	-webkit-box-direction: normal;
+	
+	-ms-flex-direction: column;
+}
+
 @media screen and (min-width: 300px) {
 	.banner p {
 		padding-right: 183px; 
