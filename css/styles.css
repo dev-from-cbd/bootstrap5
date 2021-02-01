@@ -58,12 +58,10 @@ section {
 	width: 100%;
 }
 
-/*
 .section-h2-none {
 	display: none;
 	font-size: 0; 
 }
-*/
 
 .header {
 	position: relative;
@@ -351,7 +349,7 @@ section {
 	position: relative;
 }
 
-.service .single-service .single-hover {
+.service .single-service .service-hover {
 	background-color: rgba(255, 129, 126, 0.9);
 
 	display: -webkit-box;
@@ -361,8 +359,58 @@ section {
 	-webkit-box-orient: vertical;
 
 	-webkit-box-direction: normal;
-	
+
 	-ms-flex-direction: column;
+	flex-direction: column;
+
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+
+	justify-content: center;
+
+	position: absolute;
+
+	top: 0;
+	left: 0;
+	right: 0;
+
+	text-align: center;
+
+	transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+
+	opacity: 0;
+
+	visibility: hidden;
+
+	height: 100%;
+	width: 100%;
+}
+
+.service .single-service .service-hover img {
+	margin: 0 auto 20px;
+	width: 47px;
+}
+
+.service .single-service .service-hover span {
+	color: #fff;
+	display: block;
+	font-family: "Rufina", serif;
+	font-weight: 700;
+}
+
+.service .single-service:hover .service-hover {
+	opacity: 1;
+	visibility: visible;
+}
+
+.procedures {
+	position: relative;
+}
+
+.post {
+	border: 1px solid #e3e6ea;
 }
 
 @media screen and (min-width: 300px) {
