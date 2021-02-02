@@ -411,6 +411,66 @@ section {
 
 .post {
 	border: 1px solid #e3e6ea;
+	text-align: center;
+	-webkit-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.post img {
+	margin-bottom: 35px;
+}
+
+.post h4 {
+	margin-bottom: 22px;
+}
+
+.post h4, .post h4 a {
+	color: #263a41;
+	font-size: 22px;
+}
+
+.post .btn {
+	background-color: #30383b;
+	margin-bottom: 30px;
+	padding: 15px;
+}
+
+.post:hover {
+	-webkit-box-shadow: 0 5px 20px #f0f0f0;
+	box-shadow: 0 5px 20px #f0f0f0;
+	/* transition: all 300ms ease-in-out; */
+}
+
+.post:hover .btn {
+	background-color: #ff817e;
+	color: #fff;
+}
+
+.bg-lightred {
+	background-color: #fff9f8;
+}
+
+.testimonials .single-testimonial {
+	position: relative;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.testimonials .single-testimonial img {
+	margin: 0 auto 45px;
+	width: 59px;
+}
+
+.testimonials .single-testimonial p {
+	color: #263a41;
+	font-family: "Rufina", serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 35px;
+	margin-bottom: 43px;
 }
 
 @media screen and (min-width: 300px) {
