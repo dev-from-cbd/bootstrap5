@@ -296,6 +296,9 @@ section {
 	font-weight: 400;
 	line-height: .8;
 	text-transform: uppercase;
+
+	margin-top: 30px;
+	margin-bottom:  30px;
 }
 
 .sec-heading .sec-title {
@@ -421,6 +424,11 @@ section {
 
 .post img {
 	margin-bottom: 35px;
+	width: 200px;
+	display: block;
+ 	margin-left: auto;
+    margin-right: auto;
+ 	margin-bottom: 30px;
 }
 
 .post h4 {
@@ -471,6 +479,10 @@ section {
 	font-weight: 400;
 	line-height: 35px;
 	margin-bottom: 43px;
+}
+
+.testimonials .single-testimonial .client-info .thumb {
+	border-radius: 50%;
 }
 
 @media screen and (min-width: 300px) {
