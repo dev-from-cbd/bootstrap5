@@ -510,8 +510,8 @@ section {
 .team .single-memb .memb-details {
 	background-color: #fff;
 	box-shadow: 0 5px 20px #f0f0f0;
-	/* -ms-box-shadow: 0 5px 20px #f0f0f0; */
 	-webkit-box-shadow: 0 5px 20px #f0f0f0;
+	/* -ms-box-shadow: 0 5px 20px #f0f0f0; */
 
 	max-width: calc (100%-60px);
 
@@ -554,6 +554,19 @@ section {
 	border: 1px solid #30383b;
 	border-radius: 50%;
 	color: #30383b;
+	display: inline-block;
+	font-size: 13px;
+	text-align: center;
+	line-height: 30px;
+	margin: 0 5px;
+	height: 30px;
+	width: 30px;
+}
+
+.team .single-memb .memb-social a:hover {
+	background-color: #ff817e;
+	border-color: #ff817e;
+	color: #fff;
 }
 
 iframe {
