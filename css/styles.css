@@ -540,14 +540,16 @@ section {
 }
 
 .team .single-memb .memb-social {
-	margin-top: -30px;
+	/* margin-top: -30px; */
 
 	transition: all 300ms ease-in-out;
 	-o-transition: all 300ms ease-in-out;
 	-webkit-transition: all 300ms ease-in-out;
 
-	/* opacity: 0;
-	visibility: hidden; */
+	margin-top: 0;
+
+	opacity: 1;
+	visibility: visible; 
 }
 
 .team .single-memb .memb-social a {
@@ -567,6 +569,29 @@ section {
 	background-color: #ff817e;
 	border-color: #ff817e;
 	color: #fff;
+}
+
+.team .single-memb:hover .memb-details {
+	margin-top: -84px;
+}
+
+@media screen and (max-width: 1199px) {
+	.team .single-memb .memb-details {
+		padding: 30px 20px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.team .single-memb .memb-details {
+		padding: 20px 15px;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.team .single-memb {
+		margin-bottom: 30px;
+	}
 }
 
 iframe {
