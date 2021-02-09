@@ -513,7 +513,7 @@ section {
 	-webkit-box-shadow: 0 5px 20px #f0f0f0;
 	/* -ms-box-shadow: 0 5px 20px #f0f0f0; */
 
-	max-width: calc (100%-60px);
+	max-width: calc(100% - 60px);
 
 	margin: -50px auto 0;
 	padding: 30px;
@@ -573,6 +573,60 @@ section {
 
 .team .single-memb:hover .memb-details {
 	margin-top: -84px;
+}
+
+.appointment .v2 {
+	padding-bottom: 0;
+	border-bottom: 1px solid #fdd5d5;
+}
+
+.appointment .appointment-wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.appointment .appointment-wrap figure {
+	-ms-flex-preferred-size: 40%;
+	flex-basis: 40%;
+}
+
+.appointment .appointment-wrap .appointment-form {
+	-ms-flex-preferred-size: 60%;
+	flex-basis: 60%;
+	padding-left: 100px;
+}
+
+.appointment .appointment-wrap .appointment-form form {
+	max-width: 650px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.appointment-form {
+	background-color: #fff9f8;
+}
+
+.appointment-form .form-field {
+	position: relative;
+	width: 100%;
+}
+
+.appointment-form .form-field input, .appointment-form .form-field textarea, .appointment-form .form-field select {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #d4d3d3; 
+	color: #999;
+	display: block;
+	font-size: 12px;
+	font-weight: 400;
+	padding: 10px;
 }
 
 @media screen and (max-width: 1199px) {

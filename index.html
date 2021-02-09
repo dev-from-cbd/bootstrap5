@@ -459,8 +459,13 @@
 			<section class="appointment v2">
 				<div class="appointment-wrap">
 					<div class="appointment-form">
+
+						<h2 class="section-h2-none">
+							Order
+						</h2>
+
 						<!-- <form action="#"> -->
-						<form accept="#">
+						<form action="#">
 							<div class="form-field half-width">
 								<!-- <input type="text" placeholder="Name" required name="Name"> -->
 								<input type="text" placeholder="Name" required>
@@ -468,21 +473,32 @@
 							</div>
 							<div class="form-field half-width">
 								<div class="select-field">
-									<section>
-										<option>
-											Select service
-										</option>
-										<option>
-											Select service 1
-										</option>
-									</section>
+									<!-- <section> -->
+										<select id="select">
+											<option>
+												Select service
+											</option>
+											<option>
+												Select service 1
+											</option>
+										</select>
+									<!-- </section> -->
 								</div>
 								<input type="tel" placeholder="Phone number">
 							</div>
 
 							<div class="form-field half-width">
-								<input type="date" placeholder="Date" required>
-								<input type="time" placeholder="Time" required>
+								<input type="date" required>
+								<input type="time" required>
+							</div>
+
+							<div class="form-field">
+								<textarea name="notes" placeholder="Your notes">
+									
+								</textarea>
+								<button class="btn btn-round">
+									Make an Appointment
+								</button> 
 							</div>
 						</form>
 					</div>
