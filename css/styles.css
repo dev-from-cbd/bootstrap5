@@ -30,10 +30,22 @@ a:hover, a:focus {
 	outline: 0px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
 	font-family: 'Rufina', serif;
 	font-weight: 700;
 }
+
+/* 
+h5 {
+  font-weight: bold;
+  font-size: 12pt;
+  line-height: 14pt;
+  font-family: Rufina;
+  font-variant: normal;
+  font-style: normal;
+}
+*/
+h5 { font: bold 12pt/14pt Rufina }
 
 img {
 	display: block;
@@ -575,6 +587,25 @@ section {
 	margin-top: -84px;
 }
 
+@media screen and (max-width: 1199px) {
+	.team .single-memb .memb-details {
+		padding: 30px 20px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.team .single-memb .memb-details {
+		padding: 20px 15px;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.team .single-memb {
+		margin-bottom: 30px;
+	}
+}
+
 .appointment .v2 {
 	padding-bottom: 0;
 	border-bottom: 1px solid #fdd5d5;
@@ -587,6 +618,12 @@ section {
 
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+/*
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+
+	justify-content: space-between;
+*/
 }
 
 .appointment .appointment-wrap figure {
@@ -626,25 +663,85 @@ section {
 	display: block;
 	font-size: 12px;
 	font-weight: 400;
-	padding: 10px;
+	padding: 10px 0;
+	margin-bottom: 30px;
+	width: 100%;
 }
 
-@media screen and (max-width: 1199px) {
-	.team .single-memb .memb-details {
-		padding: 30px 20px;
+.appointment-form .form-field input::-webkit-input-placeholder, 
+.appointment-form .form-field textarea::-webkit-input-placeholder, 
+.appointment-form .form-field select::-webkit-input-placeholder {
+	opacity: 1;
+	text-transform: uppercase;
+}
+
+.appointment-form .form-field input:-ms-input-placeholder, 
+.appointment-form .form-field textarea:-ms-input-placeholder, 
+.appointment-form .form-field select:-ms-input-placeholder {
+	opacity: 1;
+	text-transform: uppercase;
+}
+
+.appointment-form .form-field input::-ms-input-placeholder, 
+.appointment-form .form-field textarea::-ms-input-placeholder, 
+.appointment-form .form-field select::-ms-input-placeholder {
+	opacity: 1;
+	text-transform: uppercase;
+}
+
+.appointment-form .form-field input::placeholder, 
+.appointment-form .form-field textarea::placeholder, 
+.appointment-form .form-field select::placeholder {
+	opacity: 1;
+	text-transform: uppercase;
+}
+
+.appointment-form .form-field select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+
+	text-transform: uppercase;
+}
+
+.appointment-form .form-field .select-field {
+	width: 100%;
+} 
+
+@media screen and (max-width: 1300px) {
+	.appointment .appointment-wrap figure {
+		display: none;
+	}
+
+	.appointment .appointment-wrap .appointment-form {
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 100%;
+		padding: 30px 15px;
+	}
+
+	.appointment .appointment-wrap .appointment-form form {
+		margin: 0 auto;
 	}
 }
 
-@media screen and (max-width: 991px) {
-	.team .single-memb .memb-details {
-		padding: 20px 15px;
-		max-width: 100%;
-	}
-}
+@media screen and (min-width: 480px) {
+	.appointment-form .form-field.half-width {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
 
-@media screen and (max-width: 767px) {
-	.team .single-memb {
-		margin-bottom: 30px;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+
+		justify-content: space-between;
+	} 
+
+	.appointment-form .form-field.half-width input, 
+	.appointment-form .form-field.half-width .select-field {
+		width: 49%;
 	}
 }
 
