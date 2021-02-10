@@ -745,6 +745,80 @@ section {
 	}
 }
 
+.footer {
+	background-color: #fff9f8;
+	padding: 80px 0 60px;
+}
+
+.footer .foo-logo {
+	margin: 0 auto;
+}
+
+.footer .foo-nav {
+	position: relative;
+	margin: 30px 0;
+}
+
+.footer .foo-nav li a {
+	color: #263a41;
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+
+.footer .foo-nav li a:hover {
+	color: #ff817e;
+}
+
+.footer .foo-social {
+	margin-bottom: 30px;
+}
+
+.footer .foo-social a {
+	border-right: 1px solid #b1b4bb;
+	color: #3a414e;
+	display: inline-block;
+	font-size: 14px;
+	line-height: .5;
+	padding: 0 10px;
+}
+
+.footer .foo-social a:hover {
+	color: #ff817e;
+}
+
+.footer .copyright {
+	color: #555;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.footer .copyright a {
+	color: #ff817e;
+}
+
+@media screen and (min-width: 768px) {
+	.footer .foo-nav li {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.footer .foo-nav ul {
+		background-color: #fcf5ee;
+		display: none;
+		text-align: center;
+		padding: 10px 0;
+	}
+
+	.footer .foo-nav li {
+		padding: 10px 15px;
+	}
+}
+
 iframe {
 	width: 100%;
 }
