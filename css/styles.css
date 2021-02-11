@@ -70,6 +70,15 @@ section {
 	width: 100%;
 }
 
+/* The sign "Barbershop in Bendigo" */
+.section-h2 {
+	margin-top: 120px;
+}
+
+.p__banner-content {
+	margin-top: 50px;
+}
+
 .section-h2-none {
 	display: none;
 	font-size: 0; 
@@ -95,6 +104,7 @@ section {
 
 .primary-menu {
 	position: relative;
+	margin-left: -100px;
 }
 
 .primary-menu .mobile-menu {
@@ -108,13 +118,16 @@ section {
 }
 */
 
+/* Top menu */
 .primary-menu li a {
 	color: #263a41;
 	display: block;
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: uppercase;
-	padding: 0 20px;
+	padding: 0 22px;
+
+	margin-top: -80px;
 }
 
 .primary-menu li a:hover {
@@ -204,6 +217,11 @@ section {
 	text-transform: uppercase;
 	min-width: 170px;
 	padding: 20px 15px;
+}
+
+/* The button "Reserve now" */
+.p__btn {
+	margin-top: 120px;
 }
 
 .video-btn {
@@ -301,6 +319,7 @@ section {
 	margin: 0 auto 40px;
 }
 
+/* The sign "About my barbershop" */
 .sec-heading .tagline {
 	color: #888;
 	display: block;
@@ -309,16 +328,18 @@ section {
 	line-height: .8;
 	text-transform: uppercase;
 
-	margin-top: 100px;
-	margin-bottom: 30px;
-	padding-top: 100px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	padding-top: 50px;
 	/* padding-bottom: 30px; */
 }
 
+/* The sign "Features" */
 .sec-heading .sec-title {
 	color: #1e2528;
 	font-size: 42px;
-	margin-bottom: 32px;
+	margin-top: 32px;
+	margin-bottom: 47px;
 }
 
 .sec-heading p {
@@ -332,6 +353,10 @@ section {
 
 .btn-round:hover {
 	color: gray;
+}
+
+.reasons {
+	margin-bottom: 70px;
 }
 
 @media screen and (max-width: 991px) {
@@ -358,6 +383,8 @@ section {
 	-ms-box-pack: justify;
 
 	justify-content: space-between;
+
+	margin-top: -110px;
 }
 
 .service .single-service {
@@ -475,9 +502,13 @@ section {
 	background-color: #fff9f8;
 }
 
+/* The picture quote.png */
 .testimonials .single-testimonial {
 	position: relative;
 	text-align: center;
+
+	margin-top: 100px;
+
 	margin-bottom: 30px;
 }
 
@@ -959,6 +990,8 @@ iframe {
 	}
  
 	.banner__spa-img__right-png {
-		width: 792px;
+		width: 855px;
+
+		margin-left: -250px;
 	}
 }
