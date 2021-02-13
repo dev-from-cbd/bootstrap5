@@ -338,8 +338,8 @@ section {
 .sec-heading .sec-title {
 	color: #1e2528;
 	font-size: 42px;
-	margin-top: 32px;
-	margin-bottom: 47px;
+	margin-top: 2px;
+	margin-bottom: 20px;
 }
 
 .sec-heading p {
@@ -514,7 +514,7 @@ section {
 
 .testimonials .single-testimonial img {
 	margin: 0 auto 45px;
-	width: 59px;
+	width: 159px;
 }
 
 .testimonials .single-testimonial p {
@@ -523,14 +523,16 @@ section {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 35px;
+	margin-top: 80px;
 	margin-bottom: 43px;
 }
 
 .testimonials .single-testimonial .client-info .thumb {
 	border-radius: 50%;
+	margin-top: 100px;
 	margin-bottom: 22px;
-	height: 76px;
-	width: 76px;
+	height: 150px;
+	width: 150px;
 }
 
 .testimonials .single-testimonial .client-info p {
@@ -548,6 +550,18 @@ section {
 .team .single-memb {
 	position: relative;
 	width: 100%;
+}
+
+.single-memb img {
+	margin-top: -30px;
+	width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alex-web {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .team .single-memb .memb-details {
@@ -797,6 +811,8 @@ section {
 	font-weight: 500;
 	text-transform: uppercase;
 	padding: 0 20px;
+	margin-top: -10px;
+	margin-bottom: -10px;
 }
 
 .footer .foo-nav li a:hover {
@@ -811,7 +827,7 @@ section {
 	border-right: 1px solid #b1b4bb;
 	color: #3a414e;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 20px;
 	line-height: .5;
 	padding: 0 10px;
 }
@@ -824,11 +840,41 @@ section {
 	color: #555;
 	font-size: 13px;
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin-top: -20px;
+	margin-bottom: -30px;
 }
 
 .footer .copyright a {
 	color: #ff817e;
+}
+
+.footer__img {
+	margin-top: 20px;
+	/* width: 100px; */
+}
+
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    margin-bottom: -80px;
+}
+
+.footer-left,.footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-left{
+    text-align: left;
+}
+
+.footer-right{
+    text-align: right;
 }
 
 @media screen and (min-width: 768px) {
@@ -840,7 +886,7 @@ section {
 @media screen and (min-width: 768px) {
 	.footer .foo-nav ul {
 		background-color: #fcf5ee;
-		display: none;
+		/* display: none; */
 		text-align: center;
 		padding: 10px 0;
 	}
@@ -852,6 +898,7 @@ section {
 
 iframe {
 	width: 100%;
+	height: 300px;
 }
 
 @media screen and (min-width: 300px) {
