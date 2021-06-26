@@ -1,3 +1,3 @@
 # bootstrap5
 
-https://veryfatwombat.github.io/bootstrap5/
+http://dev-from-cbd.github.io/bootstrap5
